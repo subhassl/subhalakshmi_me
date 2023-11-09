@@ -5,7 +5,9 @@ body {
 #profile-wrapper {
   text-align: center;
 }
-
+#text {
+  font-style: italic;
+}
 #profile-picture {
   width: 150px;
   height: 150px;
@@ -13,4 +15,19 @@ body {
   object-fit: cover; /* Ensures the image covers the entire container */
   margin-left: auto;
   margin-right: auto;
+}
+
+ul {
+  padding: 5;
+  list-style-type: none;
+}
+
+.social-links ul,
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+.social {
+  width: 20px;
+  height: 20px;
 }
